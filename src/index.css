@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+--left-bg--color:#E7E8F0;
+--right-bg-color:#211F50;
+--logo-color:#000;
+--right-color-navbar: #fff;
+--left-color-navbar: #000;
+--btn-navbar-dark-color:#000;
+--btn-navbar-white-color:#fff;
+--heading-color:#000;
+--gray-text-color:rgba(0,0,0,0.4);
+--card-text-color:rgba(0,0,0,0.4);
+--btn-text:#211F50;
+--btn-bg-color:#E2A4EC;
+--dark-right-bg-color:#E2A4EC;
+--btn-shadow-bg-color:#211F50;
+--dark-gray-btn-color:rgba(0,0,0,0.2);
+--dark-gray-text-color:rgba(255,255,255,0.4);
+--logo:url(/src/Components/Css/Images/Logo.png);
+--Icon:url(/src/Components/Css/Images/Icon.png);
+--user-img:url(/src/Components/Css/Images/Avatar\ img.png);
+--border-rightt:url(/src/Components/Css/Images/border-right.png);
+--border-leftt:url(/src/Components/Css/Images/border-left.png);
+--img-bg-color-m:#E2A4EC;
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body[dark] {
+  --left-bg--color: #000;
+  --right-bg-color:#E2A4EC;
+  --logo-color:#fff;
+  --gray-text-color:rgba(255,255,255,0.4);
+  --btn-text:#fff;
+  --right-color-navbar: #000;
+  --left-color-navbar: #fff;
+  --btn-navbar-dark-color:#fff;
+  --btn-navbar-white-color:#000;
+  --heading-color:#fff;
+  --btn-bg-color:#B145CC;
+  --btn-shadow-bg-color:rgba(177, 171, 171, 0.2);
+  --logo:url(/src/Components/Css/Images/dark-logo.png);
+  --Icon:url(/src/Components/Css/Images/dark-icon.png);
+  --user-img:url(/src/Components/Css/Images/AvatarDark.png);
+  --border-rightt:url(/src/Components/Css/Images/border-dark-right.png);
+  --border-leftt:url(/src/Components/Css/Images/border-dark-left.png);
+  --img-bg-color-m:#211F50;
 }
+body{
+  background-color: var(--bg-color) !important;
+  background: linear-gradient(to right, var(--left-bg--color) 70%, var(--right-bg-color) 30%);
+  color: var(--text-color) !important;
+}
+
