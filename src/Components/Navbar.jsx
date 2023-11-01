@@ -66,7 +66,7 @@ const Navbar = () => {
                   <Link className='medium'> <button type="button" className="navbar-btn-dark" onClick={toggleDarkMode}>{Ctheme && Ctheme === 'dark' ? 'ACTIVATE LIGHT MODE' : 'ACTIVATE DARK MODE'}</button></Link>
                 </li>
               </ul>
-              <div className="d-flex align-items-center right-navbar mx-lg-0 mx-sm-3 mx-3">
+              <div className="d-flex align-items-center right-navbar">
                 <Link className='medium'><button type="button" class="navbar-btn-white">LOGIN</button></Link>
                 <div className='mx-3'>
                   <Link className='web-svg d-lg-block d-sm-none d-none'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
